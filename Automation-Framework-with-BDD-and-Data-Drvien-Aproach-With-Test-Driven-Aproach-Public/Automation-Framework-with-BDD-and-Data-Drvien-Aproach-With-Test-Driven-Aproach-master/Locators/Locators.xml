@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ElementFactories>
+<Module name="Login" value="locator of page">
+	<Element keyword ="Login_userid" locator="//*[@id='UserName']"/>
+	<Element keyword ="Login_password" locator="//*[@id='Password']"/>
+	<Element keyword ="Login_btn" locator="//*[@id='btn_Submit']"/>
+	<Element keyword ="Login_Advance_firefox" locator="//*[@id='advancedButton']"/>
+	<Element keyword ="Login_Advance_chrome" locator="//*[@id='details-button']"/>
+	<Element keyword ="Login_Accept_firefox" locator="//*[@id='exceptionDialogButton']"/>
+	<Element keyword ="Login_Accept_chrome" locator="//*[@id='proceed-link']"/>
+</Module>
+<Module name="Security">
+	<Element keyword ="Security_Role" locator="ROLE"/>
+	<Element keyword ="Securtiy_Profile" locator="Profile"/>
+	<Element keyword="Security_locator" locator="//div[@uid='SECURITY']//a"/>
+	<Element keyword="Security_Roles" locator="//div[@uid='ROLES']" />
+	<Element keyword="Security_Roles_Add" locator="//div//a[@title='Add']" />
+	<Element keyword="Security_Roles_ID" locator="//span//input[@id='RoleId']" />
+	<Element keyword="Security_Roles_Name" locator="//span//input[@id='Name']" />
+	<Element keyword="Security_Roles_Description" locator="//span//input[@id='Description']" />
+	<Element keyword="Security_Roles_Masking-Profile" locator="//span[@aria-activedescendant='MaskSettingId_option_selected']" listlocator="//ul[@id='MaskSettingId_listbox']//li"/>
+	<Element keyword="Security_Roles_Configuration" locator="//span//input[@title='Configuration']" />
+	<Element keyword="Security_Roles_Monitoring" locator="//span//input[@title='Monitoring']" />
+	<Element keyword="Security_Roles_Reports" locator="//span//input[@title='Reports']" />
+	<Element keyword="Security_Roles_Security" locator="//span//input[@title='Security']" />
+	<Element keyword="Security_Roles_Settlement" locator="//span//input[@title='Settlement']" />
+	<Element keyword="Security_Roles_Submit" locator="//input[@id='btnSubmit']" />
+	<Element keyword="Security_Notification_msg" locator="//div[@class='notificationContent']" />
+	<Element keyword="Security_Roles_Commit_HR" locator="//tr//td[@title='HumanResource100']//following-sibling::td[@title='Human Resource']//following-sibling::td[@title='Testing']//following-sibling::td[@title='    Commit']//a[@title='Commit Changes']" />
+	<Element keyword="Security_Roles_Commit_Automation" locator="//tr//td[@title='Automation100']//following-sibling::td[@title='Automation']//following-sibling::td[@title='Testing']//following-sibling::td[@title='    Commit']//a[@title='Commit Changes']" />
+	<Element keyword="Security_Roles_Commit_Finance" locator="//tr//td[@title='Finance200']//following-sibling::td[@title='Finance']//following-sibling::td[@title='Testing']//following-sibling::td[@title='    Commit']//a[@title='Commit Changes']" />
+	<Element keyword="Security_Roles_Commit_Manager" locator="//tr//td[@title='Manager200']//following-sibling::td[@title='Manager']//following-sibling::td[@title='Testing']//following-sibling::td[@title='    Commit']//a[@title='Commit Changes']" />
+	<Element keyword="Security_Roles_Commit_Marketing" locator="//tr//td[@title='Marketing200']//following-sibling::td[@title='Marketing']//following-sibling::td[@title='Testing']//following-sibling::td[@title='    Commit']//a[@title='Commit Changes']" />
+	<Element keyword="Security_Roles_Commit_Manager" locator="//tr//td[@title='Marketing200']//following-sibling::td[@title='Marketing']//following-sibling::td[@title='Testing']//following-sibling::td[@title='    Commit']//a[@title='Commit Changes']" />
+	<Element keyword="Security_Roles_Update-Confirmation" locator="//*[@id='windowConfirm']/div//div//button[@class='k-button' and @onclick='onAction_ApplyChanges(1)']" />
+	<Element keyword="Security_Roles_Add_Permissions_GL_Posting" locator="GL Posting"/>
+	<Element keyword="Security_Roles_Add_Permissions_General_Ledger_Accounts" locator="General Ledger Accounts"/>
+	<Element keyword="Security_Roles_Add_Permissions_Liquidity_Management" locator="Liquidity Management"/>
+	<Element keyword="Security_Roles_Add_Permissions_Authorize_limit_Submission" locator="Authorize limit Submission"/>
+</Module>
+	</ElementFactories>
